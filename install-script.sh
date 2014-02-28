@@ -12,6 +12,7 @@ then
 	echo "error at 2"
 	read -n 1 -s
 fi
+sudo apt-get update
 #install bootstrap dep
 sudo apt-get install python-rosdep python-rosinstall-generator python-wstool python-rosinstall build-essential -y
 if [ "$?" != 0 ]
